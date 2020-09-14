@@ -10,6 +10,7 @@
   --description-address:color: rgba(255, 255, 255, 0.6);
   --description-dark-theme-color: #ffffff;
   --background-button: #F5F4FA;
+  --footer-background-color: #2F303A;
 }
 body{
   font-family: var(--main-font);
@@ -73,14 +74,22 @@ body{
 /* === END HEADER === */
 
 /* === FOOTER === */
+.footer{
+  background-color: var(--footer-background-color);
+}
 .address-list-item{
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  /* color: var(--description-dark-theme-color); */
 }
 .contacts{
- /* color: rgba(255, 255, 255, 0.6); */
+ color: rgba(255, 255, 255, 0.6); 
+}
+.address{
+  color: var(--description-dark-theme-color)
+}
+.logo-color-footer{
+  color: var(--title-dark-theme-color);
 }
 /* === END FOOTER === */
 /* ========== MAIN PAGE ========== */
